@@ -20,3 +20,14 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Node / frontend
+node_modules/
+**/dist/
+*.log
+
+# Rust / Tauri
+**/target/
+**/*.rs.bk
+
+# App runtime data
+.DS_Store
